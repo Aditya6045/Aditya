@@ -23,6 +23,6 @@ management:
 server:
   port : 8080
 build:
-  version: 33
+  version: 3300
 
 
