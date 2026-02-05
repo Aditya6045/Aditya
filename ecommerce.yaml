@@ -20,6 +20,6 @@ management:
 server:
   port : 8080
 build:
-  version: 11
+  version: 1100
 
 
