@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: ecommerce
+  config:
+    activate:
+      on-profile: "prod"
+  datasource:
+    url: jdbc:h2:mem:testdb
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+    shutdown:
+      access: unrestricted
+server:
+  port : 8080
+build:
+  version: 33
+
+
